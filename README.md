@@ -5,7 +5,7 @@ What to create:
     - 1 Vertical for Social media links
     - 2 Horizontal for directional links to specific topics
 
-2: Horizontal links will have the following:
+2: Horizontal links will have the following: (Use Flexbox)
     - Contact
     - About Me (Include Education ?) 
     - Education: 
@@ -13,7 +13,7 @@ What to create:
     - My Projects
     - Tutoring Services (Link - for a form)
 
-3: Vertical Links will have the following:
+3: Vertical Links will have the following: (Use Flexbox)
     - Twitter
     - Instagram 
     - Facebook 
