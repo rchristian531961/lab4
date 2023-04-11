@@ -1,22 +1,21 @@
 /*Styling page*/
 /* Use flexbox for horizontal and vertical navigation pages*/
 
-.flex-container{ /*Added my flex container*/
+.navbar-H{ /*Horizontal flex box established*/
+    display:flex;
+    background-color: rgb(54,69,79);
+}
+
+.navbar-H ul{
+    list-style:none;
     display:flex;
 }
 
-.flex-H{ /*Added my additions to flex horizontally class description*/
-    flex-direction:row;
-    background-color: black;
-    text-decoration-color:green;
-    justify-content:space-evenly;
-    align-items:center;
+.navbar-H li{
+    width:120px; /*check sizes and correlated to font size of navbar-h a class*/
 }
 
-.flex-1{ /*size for flex size horizontally*/
-    
-}
-
-.flex-H:hover{ /*Hover class for horizontal row*/
-
+.navbar-H a{
+    color:white;
+    font-size:20px; /*check sizes*/
 }
