@@ -1,0 +1,42 @@
+/*Style Sheet for Welcome Page*/
+
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh; /*Don't use max-height*/
+    /* background-color:white;  */
+    /* border:1px solid red; */
+}
+
+.container h1,h2,h3{
+    margin:0;
+    text-shadow:2px 2px 6px #000;
+    text-align:center;
+}
+
+/* .centered{border:1px solid blue;} */
+
+.box{
+    justify-content:center;
+    align-items:center;
+}
+
+body{
+    background-image:url(photos/Circuit-Back.jpg);
+    background-repeat:no-repeat;
+    background-size:cover; /*Sets the background as cover*/
+    background-attachment: fixed; /*fixes the photo*/
+}
+
+h3{
+    
+}
+
+h2{
+
+}
+
+h1{
+
+}
