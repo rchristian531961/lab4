@@ -4,9 +4,27 @@
     display:flex;
     justify-content:center;
     align-items:center;
+    border:10px solid red;
     height:100vh; /*Don't use max-height*/
-    /* background-color:white;  */
-    /* border:1px solid red; */
+    background-image:url(photos/Circuit-Back.jpg);
+    background-repeat:no-repeat;
+    background-size:cover; /*Sets the background as cover*/
+    background-attachment: fixed; /*fixes the photo*/
+}
+
+
+.box-1{ /*Welcome message box*/
+    justify-content:center;
+    align-items:center;
+    border:10px solid black;
+    position:relative;
+    
+}
+
+.box-1 h1{
+    font-size:20vh;
+    font-size:10vw;
+    position:relative;
 }
 
 .container h1,h2,h3{
@@ -15,28 +33,27 @@
     text-align:center;
 }
 
-/* .centered{border:1px solid blue;} */
-
-.box{
+/*Links styling*/
+.mylinks{
+    display:flex;
+    list-style-type:none;
+    overflow:hidden;
+    background-color:red;
+    text-align: center;
     justify-content:center;
-    align-items:center;
 }
 
-body{
-    background-image:url(photos/Circuit-Back.jpg);
-    background-repeat:no-repeat;
-    background-size:cover; /*Sets the background as cover*/
-    background-attachment: fixed; /*fixes the photo*/
+li a{
+    display:flex;
+    color:white;
+    text-align:center;
+    padding:16px;
+    text-decoration:none;
+    border:3px solid black;
 }
 
-h3{
-    
+li a:hover{
+    background-color:purple;
 }
 
-h2{
 
-}
-
-h1{
-
-}
