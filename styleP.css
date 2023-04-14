@@ -7,10 +7,11 @@
 body{
     height:100%;
     width:100%;
-    background-size:cover;
     background:url('photos/spotlight.jpg');
-    background-repeat: no-repeat;
-    background-size:cover;
+    background-repeat:no-repeat;
+    background-size:cover; /*Sets the background as cover*/
+    background-attachment: fixed; 
+    background-position:center center;
 }
 
 

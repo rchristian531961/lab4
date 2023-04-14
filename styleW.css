@@ -1,15 +1,17 @@
 /*Style Sheet for Welcome Page*/
-
+body{
+    background-image:url(photos/intro.jpg);
+    background-repeat:no-repeat;
+    background-size:cover; /*Sets the background as cover*/
+    background-attachment: fixed; 
+    background-position:center center;
+}
 .container{
     display:flex;
     justify-content:center;
     align-items:center;
-    border:10px solid red;
     height:100vh; /*Don't use max-height*/
-    background-image:url(photos/intro.jpg);
-    background-repeat:no-repeat;
-    background-size:cover; /*Sets the background as cover*/
-    background-attachment: fixed; /*fixes the photo*/
+    
 }
 
 
