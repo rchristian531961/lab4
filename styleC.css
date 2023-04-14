@@ -11,12 +11,13 @@
 
 .container-C{
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items:center;
     border:10px solid darkgreen;
     background-color:white;
     min-height:50vh;
-    flex:1;
+    justify-content: space-between;
+    /* flex:1; */
 }
 
 .container-D{
