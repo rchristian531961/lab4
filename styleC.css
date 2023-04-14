@@ -11,32 +11,24 @@
 
 .container-C{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items:center;
     border:10px solid darkgreen;
     background-color:white;
     min-height:50vh;
+    flex:1;
 }
 
 .container-D{
     display:flex;
-    justify-content:center;
-    align-items:center;
+    flex-wrap:wrap;
     border:10px solid darkgreen;
     min-height:50vh;
-    flex:1;
 }
 
-.container-E{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    border:10px solid black;
-    min-height:50vh;
-}
 
 .myspace{
-    margin:30px; /*Spacing between elements*/
+    margin:4%; /*Spacing between elements. Checkout spacing with % and px*/
 }
 
 
