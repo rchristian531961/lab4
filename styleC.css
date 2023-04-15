@@ -1,0 +1,43 @@
+.container-H{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    max-height:30vh;
+    border:10px solid darkblue;
+    background-color:white;
+    min-height:30px;
+}
+
+.container-C{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    border:10px solid darkgreen;
+    background-color:white;
+    min-height:50vh;
+    /* justify-content: space-between; */
+    /* flex:1; */
+}
+
+.container-D{
+    display:flex;
+    flex-wrap:wrap;
+    border:10px solid darkgreen;
+    min-height:50vh;
+}
+
+
+.myspace{
+    margin:4%; /*Spacing between elements. Checkout spacing with % and px*/
+}
+
+
+
+/*multiple containers instead of one big one
+container-1 should contain information only on title of page
+container-2 should contain the information on the links and contact information
+container-1 needs to centered horizontally and styled
+container-2 needs two flex boxes: Container-2 items need to be centered horizontally and
+vertically. Text aligned for both child boxes. With contact information on left side and 
+links associated on the other for transition through multiple pages. 
+*/
