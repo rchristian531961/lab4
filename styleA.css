@@ -1,13 +1,15 @@
 .container{
     display:flex;
     justify-content:space-between;
+    background-color: #e056fd;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
     /* background: linear-gradient(to right, #0f2027, #203a43, #2c5364); */
-    background-image:url('photos/contact-background.jpg');
+    /* background-image:url('photos/contact-background.jpg');
     background-repeat:no-repeat;
     background-size:cover; 
     background-attachment: fixed; 
     background-position:center center; 
-    /* min-height:100vh; */
+    min-height:100vh; */
 }
 
 .sidebar{
