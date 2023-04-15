@@ -1,0 +1,30 @@
+body{
+    display:flex;
+    min-height:100vh;
+    border:3px solid black;
+    flex-direction:row;
+}
+
+.left{
+    display:flex;
+    min-height:100vh;
+    border:3px solid red;
+    max-width:15%;
+    margin:1%;
+    padding:1%;
+}
+
+.right{
+    display:flex;
+    min-height:100vh;
+    border:3px solid blue;
+    flex:1;
+    margin:1%;
+    padding:1%;
+    flex-direction:column;
+    justify-content:space-evenly;
+}
+
+.myborder{
+    border:3px solid gray;
+}
