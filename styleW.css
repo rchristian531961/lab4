@@ -1,11 +1,11 @@
 /*Style Sheet for Welcome Page*/
 body{
     background:linear-gradient(to right,#159957, #155799);
-    background-size:cover; 
-    /* background-image:url(photos/intro.jpg); */
-    /* background-repeat:no-repeat;
+    /* background-size:cover; 
+    background-image:url(photos/intro.jpg);
+    background-repeat:no-repeat;
     background-attachment: fixed; 
-    background-position:center center; */
+    background-position:center center;  */
 }
 
 .container{
