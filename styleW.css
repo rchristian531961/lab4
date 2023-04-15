@@ -1,19 +1,20 @@
 /*Style Sheet for Welcome Page*/
 body{
-    background-image:url(photos/intro.jpg);
-    background-repeat:no-repeat;
-    background-size:cover; /*Sets the background as cover*/
+    background:linear-gradient(to right,#159957, #155799);
+    background-size:cover; 
+    /* background-image:url(photos/intro.jpg); */
+    /* background-repeat:no-repeat;
     background-attachment: fixed; 
-    background-position:center center;
+    background-position:center center; */
 }
+
 .container{
     display:flex;
     justify-content:center;
     align-items:center;
     height:100vh; /*Don't use max-height*/
-    
+    overflow:hidden;
 }
-
 
 .box-1{ /*Welcome message box*/
     justify-content:center;
@@ -63,3 +64,7 @@ li a{
 li a:hover{
     background-color:purple;
 }
+
+
+
+   
