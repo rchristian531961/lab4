@@ -39,7 +39,8 @@ body{
 .right-1{
     display:flex;
     justify-content:center;
-    justify-content:space-around;
+    justify-content:space-evenly;
+    flex:1;
 }
 
 .myheader{
@@ -47,6 +48,12 @@ body{
     justify-content:center;
     align-items:center;
     width:100%;
+}
+
+.centered{
+    text-align:center;
+    justify-content:center;
+
 }
 
 .myborder-2{
