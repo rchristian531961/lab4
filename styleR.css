@@ -40,7 +40,13 @@ body{
     display:flex;
     justify-content:center;
     justify-content:space-around;
-    
+}
+
+.myheader{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
 }
 
 .myborder-2{
