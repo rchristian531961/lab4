@@ -31,3 +31,33 @@ body{
     margin:1%;
 }
 
+input[type=text], select, textarea{
+    width:100%;
+    padding:2%;
+    border:1px solid green;
+    border-radius:10%;
+    box-sizing:border-box;
+    resize:vertical;
+    margin:2%;
+}
+
+input[type=submit]{
+    background-color:green;
+    color:white;
+    border:none;
+    border-radius:20%;
+    cursor:pointer;
+    padding:2%;
+}
+
+input[type=submit]:hover{
+    background-color:#45a049;
+}
+
+
+.contact-form{
+    border-radius:5px;
+    background-color:white;
+    padding:5%;
+}
+
