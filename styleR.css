@@ -36,6 +36,17 @@ body{
     justify-content:space-evenly;
 }
 
+.right-1{
+    display:flex;
+    justify-content:center;
+    justify-content:space-around;
+    
+}
+
+.myborder-2{
+    border:3px solid red;
+}
+
 .myborder{
     border:3px solid gray;
 }
