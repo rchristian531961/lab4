@@ -1,14 +1,20 @@
 body{
     display:flex;
-    border:2px solid red;
+    /* border:2px solid red; */
     min-height:100vh;
     justify-content:center;
     align-items:center;
+    font-family: "Sofia", sans-serif;
+    background:linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+}
+
+#centered{
+    text-align:center;
 }
 
 .form-container{
     display:flex;
-    border:2px solid black;
+    /* border:2px solid black; */
     padding:2em;
     min-height:70%; /*checkout modify with %?*/
     width:80%;
@@ -17,7 +23,7 @@ body{
 
 .nav-bar{
     display:flex;
-    border:2px solid blue;
+    /* border:2px solid blue; */
     padding:1em;
     width:15%;
     margin:1%;
@@ -30,15 +36,31 @@ body{
     display:flex;
     flex-direction:column;
     align-items:center;
-    border:2px solid red;
+    /* border:2px solid red; */
     height:70%;
     justify-content:center;
     justify-content:space-evenly;
 }
 
+a{
+    background-color:aquamarine;
+    border-radius: 25px;
+    text-decoration:none;
+    font-style:italic;
+    font-weight:bold;
+    padding:16px;
+    color:black;
+    font-size:25px;
+}
+
+a:hover{
+    background-color:beige;
+}
+
+
 .contact{
     display:flex;
-    border:2px solid red;
+    /* border:2px solid red; */
     width:20%;
     padding:1em;
     margin:1%;
@@ -50,7 +72,7 @@ body{
 input[type=text], select, textarea{
     width:100%;
     padding:2%;
-    border:1px solid green;
+    /* border:1px solid green; */
     border-radius:10%;
     box-sizing:border-box;
     resize:vertical;
@@ -72,16 +94,8 @@ input[type=submit]:hover{
 
 .contact-form{
     border-radius:5px;
-    background-color:white;
+    background:linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
     padding:5%;
-}
-
-.border-1{
-    border:3px solid black;
-}
-
-.border-2{
-    border:3px solid blue;
 }
 
 .social-box{
@@ -97,6 +111,7 @@ input[type=submit]:hover{
     width:90%;
     flex-direction:column;
     height:50%;
+    align-items:center;
 }
 
 /*social media */
@@ -131,4 +146,31 @@ input[type=submit]:hover{
     background:#fffc00;
     color:white;
     text-shadow:-1px 0 black, 10 px black , 1px 0 black, 0 -1px black;
+}
+
+.fa-home{
+    background:#007bb5;
+    color:white;
+    border-radius:50%;
+    max-height:5%;
+    max-width:5%;
+}
+
+
+.mybox{
+    display:flex;
+}
+
+.phone-icon{
+    background-color:green;
+    display:flex;
+    border-radius:50%;
+}
+
+.border-1{
+    border:3px solid black;
+}
+
+.border-2{
+    border:3px solid blue;
 }
