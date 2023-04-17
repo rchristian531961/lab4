@@ -1,14 +1,40 @@
 body{
     display:flex;
     min-height:100vh;
-    border:3px solid black;
     flex-direction:row;
+    overflow:none;
+    background: linear-gradient(to right, #59c173, #a17fe0, #5d26c1); 
+}
+
+h2, a {
+    font-family: "Sofia", sans-serif;
+}
+
+.myheader h2{
+    font-size:3em;
+    color:aqua;
+    text-decoration:underline;
+}
+
+
+.centered h3{
+    font-family:"cursive", sans-serif;
+    font-size:1.5em;
+}
+
+.centered h4{
+    font-size:1.5em;
+    font-family:"cursive", sans-serif;
+}
+
+.centered li{
+    font-weight:600;
+    font-size:larger;
 }
 
 .left{
     display:flex;
     min-height:100vh;
-    border:3px solid red;
     max-width:15%;
     margin:1%;
     padding:1%;
@@ -20,7 +46,6 @@ body{
     display:flex;
     align-items:center;
     justify-content: center;
-    border:2px solid black;
     flex-direction:column;
     justify-content:space-around;
 }
@@ -28,7 +53,6 @@ body{
 .right{
     display:flex;
     min-height:100vh;
-    border:3px solid blue;
     flex:1;
     margin:1%;
     padding:1%;
@@ -52,7 +76,7 @@ body{
 .centered{
     text-align:center;
     justify-content:center;
-
+    flex:1 1 0; /*Each box has equal space*/
 }
 
 .myborder-2{
@@ -62,3 +86,22 @@ body{
 .myborder{
     border:3px solid gray;
 }
+
+ul, li{
+    list-style-type:none;
+    padding:1%;
+}
+
+a{
+    background-color:aquamarine;
+    border-radius: 25px;
+    text-decoration:none;
+    font-style:italic;
+    font-weight:bold;
+    padding:16px;
+    color:black;
+    font-size:25px;
+}
+
+
+
